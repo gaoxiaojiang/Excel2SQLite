@@ -1,0 +1,170 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0/osx-x64",
+    "signature": "b4f84d2f35ff8cccaba00fb01214a18f388fc404"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {},
+    ".NETCoreApp,Version=v2.0/osx-x64": {
+      "Excel2DB/1.0.0": {
+        "dependencies": {
+          "DotNetCore.NPOI": "1.2.1",
+          "System.Data.SQLite.Core": "1.0.109"
+        },
+        "runtime": {
+          "Excel2DB.dll": {}
+        }
+      },
+      "DotNetCore.NPOI/1.2.1": {
+        "dependencies": {
+          "DotNetCore.NPOI.Core": "1.2.1",
+          "DotNetCore.NPOI.OpenXml4Net": "1.2.1",
+          "DotNetCore.NPOI.OpenXmlFormats": "1.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NPOI.OOXML.dll": {}
+        }
+      },
+      "DotNetCore.NPOI.Core/1.2.1": {
+        "dependencies": {
+          "SharpZipLib": "1.0.0",
+          "System.Drawing.Common": "4.5.0",
+          "System.Text.Encoding.CodePages": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NPOI.dll": {}
+        }
+      },
+      "DotNetCore.NPOI.OpenXml4Net/1.2.1": {
+        "dependencies": {
+          "DotNetCore.NPOI.Core": "1.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NPOI.OpenXml4Net.dll": {}
+        }
+      },
+      "DotNetCore.NPOI.OpenXmlFormats/1.2.1": {
+        "dependencies": {
+          "DotNetCore.NPOI.OpenXml4Net": "1.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NPOI.OpenXmlFormats.dll": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {}
+        }
+      },
+      "SharpZipLib/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll": {}
+        }
+      },
+      "System.Data.SQLite.Core/1.0.109": {
+        "runtime": {
+          "lib/netstandard2.0/System.Data.SQLite.dll": {}
+        }
+      },
+      "System.Drawing.Common/4.5.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "4.5.0"
+        },
+        "runtime": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/4.5.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Excel2DB/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotNetCore.NPOI/1.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5M2x2mt+JOTByhzSH6PtcDOepZswmb6Uu2rjiOx5l3lKc7AP9kbmhN7WLKakGVSNhnOMgXbFXulIRRflPeNb/g==",
+      "path": "dotnetcore.npoi/1.2.1",
+      "hashPath": "dotnetcore.npoi.1.2.1.nupkg.sha512"
+    },
+    "DotNetCore.NPOI.Core/1.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K8hlUP5yCxCK2JNROBBGAM50EtRshBe+RglFrrJkrbygR3o1HsruvHk6NlEFI+pYV9brDVqRc8xsYz5ZfeLfgQ==",
+      "path": "dotnetcore.npoi.core/1.2.1",
+      "hashPath": "dotnetcore.npoi.core.1.2.1.nupkg.sha512"
+    },
+    "DotNetCore.NPOI.OpenXml4Net/1.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LxHszYfzPwg+ibE70gR7HrLlOtMHhWWEXLOTcW6KkwyJJ9eisCfrSkfbGvJnvfQHxmL9RXfZ+KV+B0/OeZ7kmw==",
+      "path": "dotnetcore.npoi.openxml4net/1.2.1",
+      "hashPath": "dotnetcore.npoi.openxml4net.1.2.1.nupkg.sha512"
+    },
+    "DotNetCore.NPOI.OpenXmlFormats/1.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bim3nwQ5b/6bAoWa7DhHTYwz9w5dmMDwqn27LgcE8Sa/eYh672BOfT6SaKFuxQT1+X0Au3WhTwH1RgO/4aTNtg==",
+      "path": "dotnetcore.npoi.openxmlformats/1.2.1",
+      "hashPath": "dotnetcore.npoi.openxmlformats.1.2.1.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aXrCxI6PdEEJkqIDRYCe2oBRZ1gto5Ac1Y/WuahG/CD+PB5rAVFU7VpkBILBUQQG/NBtxbIRM0Q61m5uJQLTPw==",
+      "path": "microsoft.win32.systemevents/4.5.0",
+      "hashPath": "microsoft.win32.systemevents.4.5.0.nupkg.sha512"
+    },
+    "SharpZipLib/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-38egGevtPMQn/6olZZUteKUC7+BD47LdCGKo9Vyj17+HWDwiqPXsyJu55q9WSybhwVKwt0q2FLhiuJjZfQpsHw==",
+      "path": "sharpziplib/1.0.0",
+      "hashPath": "sharpziplib.1.0.0.nupkg.sha512"
+    },
+    "System.Data.SQLite.Core/1.0.109": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pszWTuZLeg86kyQRydjmBtq3wqxEsUbMpdpz03sN6qi1GWJ5dRVtMyulPiQZlP9UkJYv6FCKBUAXLxfiyoiUrw==",
+      "path": "system.data.sqlite.core/1.0.109",
+      "hashPath": "system.data.sqlite.core.1.0.109.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LLI+GGolsv4K8Eu2PN5N3/1t4pM5zoU4fM3lWhSOawJuCjv9iQJJODjd4/QJIgpjlqxzQDMMoOjAaVuzrNJT0g==",
+      "path": "system.drawing.common/4.5.0",
+      "hashPath": "system.drawing.common.4.5.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6zBxkHYemB0kQiHP3vGXGRXejZVoNVuMn2paUuqKKi5Wyjkxfkp+D0rd0c3VrGwotidRINt6KpOi2smL4VkJKw==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-16EVkWmNnoH3/Yj9c5s5VuLK5Uv/Dnkc3P2kMmnD7wJcUuvcHVvM2IhVJanf2hHRZUitH+cIkPCPHrBoCXc7Rw==",
+      "path": "system.text.encoding.codepages/4.5.0",
+      "hashPath": "system.text.encoding.codepages.4.5.0.nupkg.sha512"
+    }
+  }
+}

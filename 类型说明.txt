@@ -1,0 +1,6 @@
+Int：整形
+String：字符串
+Decimal：大数
+Boolean：真假
+Single：浮点数
+Vector3：向量
